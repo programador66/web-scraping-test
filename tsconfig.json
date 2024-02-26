@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",  // A versão do ECMAScript para a qual o código será transpilado
+    "module": "CommonJS",  // Sistema de módulos (Node.js usa CommonJS)
+    "outDir": "./dist",  // Diretório de saída para os arquivos transpilados
+    "rootDir": "./src",  // Diretório de origem onde estão os arquivos TypeScript
+    "strict": true,  // Habilita todas as verificações de tipo estritas
+    "esModuleInterop": true,  // Habilita interoperabilidade com módulos ES6
+    "skipLibCheck": true,  // Evita a verificação de bibliotecas de definições de tipo
+    "forceConsistentCasingInFileNames": true,  // Garante consistência nos nomes de arquivos (sistema de arquivos não é case-sensitive)
+    "resolveJsonModule": true  // Permite a importação de arquivos JSON como módulos
+  },
+  "include": [
+    "src/**/*.ts"  // Padrão para incluir os arquivos TypeScript
+  ],
+  "exclude": [
+    "node_modules"  // Diretório a ser excluído da transpilação
+  ]
+}

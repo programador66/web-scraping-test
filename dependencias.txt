@@ -1,0 +1,14 @@
+sudo apt update
+sudo apt install libnss3
+
+export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
+
+sudo apt update
+
+sudo apt-get install libatk1.0-0
+sudo apt-get install libatk-bridge2.0-0
+sudo apt-get install libcups2
+sudo apt-get install libxrandr2
+sudo apt-get install libpangocairo-1.0-0
+sudo apt-get install libasound2
+export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
